@@ -25,6 +25,10 @@ module.exports = function(config) {
       // Specs helpers
       'components/jasmine-helpers/*.js',
 
+      'components/bower-lodash-angular/*.js',
+      'components/bower-redefine/*.js',
+      'components/ng-*/**/*.js',
+
       // app & specs
       'src/**/*.js',
 

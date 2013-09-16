@@ -3,7 +3,10 @@
   "version": "0.1.0",
   "main": "ng-gc-mock-directive.js",
   "dependencies": {
-    "bower-angular": "git@github.com:angular/bower-angular.git#v1.2.0-rc.2"
+    "bower-angular": "git@github.com:angular/bower-angular.git#v1.2.0-rc.2",
+    "ng-gc-toggle-directive": "git@github.com:gocardless-ng/ng-gc-toggle-directive.git",
+    "ng-http-factory": "git@github.com:gocardless-ng/ng-http-factory.git",
+    "ng-gc-user-api-service": "git@github.com:gocardless-ng/ng-gc-user-api-service.git"
   },
   "devDependencies": {
     "bower-angular-mocks": "git@github.com:angular/bower-angular-mocks.git#v1.2.0-rc.2",

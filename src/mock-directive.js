@@ -4,8 +4,8 @@ angular.module('gc.mock', [
   'gc.toggle',
   'gc.mockController',
   'mock-template.html'
-]).directive('mock',
-  [function mockDirective() {
+]).directive('mock', [
+  function mockDirective() {
 
     return {
       restrict: 'E',
@@ -15,4 +15,5 @@ angular.module('gc.mock', [
       scope: {}
     };
 
-  }]);
+  }
+]);
